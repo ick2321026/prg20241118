@@ -30,6 +30,14 @@
             <input type="submit" value="送信" onclick="send()">
 
             <script>
+                function ques(){
+                    if(window.confirm("申し込みますか？")){
+                        ;
+                    }else{
+                        send()
+                    }
+                } 
+                
                 function send(){
                     alert("中国送信完了 この情報は当局に監視されています")
                 }
